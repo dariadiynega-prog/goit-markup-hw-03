@@ -1,16 +1,30 @@
 .header {
+  padding: 0 15px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
 }
 .header-logo {
   color: #2e2f42;
 }
 
 .main-nav {
+  margin-left: 76px;
+  margin-right: auto;
 }
 .main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .main-nav-item {
 }
 .main-nav-link {
+  padding: 24px 0;
+  display: block;
   font-weight: 500;
   color: #2e2f42;
 }
@@ -21,6 +35,9 @@
 .contacts {
 }
 .contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .contacts-item {
 }
